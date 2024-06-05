@@ -1,0 +1,28 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python Debugger: debitcreditservice",
+      "type": "python",
+      "request": "launch",
+      "module": "main",
+      "console": "integratedTerminal",
+      "envFile": "/Users/manav.garg/Desktop/Personal/debit:creditbackend/.env"
+    }
+
+    // {
+    //     "name": "Python: FastAPI",
+    //     "type": "python",
+    //     "request": "launch",
+    //     "module": "uvicorn",
+    //     "args": [
+    //         "src.main:app"
+    //     ],
+    //     "jinja": true,
+    //     "justMyCode": true
+    // }
+  ]
+}

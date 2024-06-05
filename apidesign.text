@@ -1,0 +1,525 @@
+schema:
+
+user:
+user_id
+account_balance
+metadata
+
+
+
+functions:
+
+money exhange needs both debit and credit
+api needs to be idemptent
+postgres connectivity
+
+def exhange:
+
+    step 1: check for account balance of sender for min balance requirements
+    step 2: debit the balance
+    step 3: credit the balance accordingly
+    step 4: Whole thing needs to happen in one go, ACID needs to be followed
+
+
+[
+    {
+        "userid": "a2cfa30d7718ff051b42087233e4fd07",
+        "name": "5a01e6327c",
+        "balance": "          86350"
+    },
+    {
+        "userid": "78e72c18ceed4f77961b273d41f1e8a9",
+        "name": "10e2a57419",
+        "balance": "          64400"
+    },
+    {
+        "userid": "1146574c22ba77f7770243662481b15c",
+        "name": "b534b7d051",
+        "balance": "          74675"
+    },
+    {
+        "userid": "93ed68fe5d2b23a64f369720d9d50e98",
+        "name": "59363314ff",
+        "balance": "          10898"
+    },
+    {
+        "userid": "af126040a0aafa2e9c585ef6cc885767",
+        "name": "952edbf6fe",
+        "balance": "          36092"
+    },
+    {
+        "userid": "a1fe93771df62908d303a11f37d53135",
+        "name": "ab889e699f",
+        "balance": "          25785"
+    },
+    {
+        "userid": "0fccf84e07cfd6eb1e03dcdf543f5b02",
+        "name": "1de2cf89c3",
+        "balance": "          23926"
+    },
+    {
+        "userid": "c54545d966e6875f57dfbf6349f0ec1e",
+        "name": "3fb929d32b",
+        "balance": "          59400"
+    },
+    {
+        "userid": "d82efd351d000cf8dd0c8222bcc62873",
+        "name": "93fa89dd34",
+        "balance": "          81591"
+    },
+    {
+        "userid": "3c04c771e345e3734783758a5173d91a",
+        "name": "008d7ae1b2",
+        "balance": "          40091"
+    },
+    {
+        "userid": "f1571486158192c92c7e2717ac1e4134",
+        "name": "6219eebcc0",
+        "balance": "          30897"
+    },
+    {
+        "userid": "154bcff5ec6abb10f54b943ba9640ddd",
+        "name": "4b16210b03",
+        "balance": "          76281"
+    },
+    {
+        "userid": "1397d61f63d5d49b241f8b72ab645391",
+        "name": "c0b035cd78",
+        "balance": "          31875"
+    },
+    {
+        "userid": "00f16fb93d603fb5535ca4068f5d4d56",
+        "name": "820341257f",
+        "balance": "          53304"
+    },
+    {
+        "userid": "7561529621e98a7b55926c92ea5b38ed",
+        "name": "dcd8a21032",
+        "balance": "          49659"
+    },
+    {
+        "userid": "84a5e1a0a578e6a21d12eecfd851e0d4",
+        "name": "89b9d29c8a",
+        "balance": "          15480"
+    },
+    {
+        "userid": "80c5a9f3a4a660afa4d5a0d10d995c31",
+        "name": "8c7f3b7bb5",
+        "balance": "          85161"
+    },
+    {
+        "userid": "497ae481306d1f9a593ccd8164857dc7",
+        "name": "50920483c5",
+        "balance": "          49442"
+    },
+    {
+        "userid": "8799b72bc8dadfe8211d09b4d45967f4",
+        "name": "3a82599237",
+        "balance": "          78677"
+    },
+    {
+        "userid": "bde7bcd45e1172c924dee9532a612e0a",
+        "name": "22d3c369b1",
+        "balance": "            573"
+    },
+    {
+        "userid": "6e5815dee4fe2cf3e23c8f7f742a680a",
+        "name": "2cb6917c98",
+        "balance": "          82029"
+    },
+    {
+        "userid": "37c2eb1590ec79828593d6851a72f227",
+        "name": "7c14a6ad57",
+        "balance": "          34346"
+    },
+    {
+        "userid": "e53d45be072344f1c2518c751113ce7f",
+        "name": "eb8d0d379d",
+        "balance": "          64067"
+    },
+    {
+        "userid": "ff9afeda029777eb6d1ea76c8b1bea03",
+        "name": "065065018c",
+        "balance": "          40845"
+    },
+    {
+        "userid": "0268da58c7ce6d946c4cff52815614a6",
+        "name": "12ce8eb9e7",
+        "balance": "          49902"
+    },
+    {
+        "userid": "a43925936097ef0bbc4f9f778bd6b6ed",
+        "name": "bf6a0ec143",
+        "balance": "          87640"
+    },
+    {
+        "userid": "d7892dd1e2c877a95aae371c8f5b77c6",
+        "name": "15e5f81510",
+        "balance": "          44897"
+    },
+    {
+        "userid": "380e99e33214b95c13a011ce29b8fa33",
+        "name": "d8677727ef",
+        "balance": "          70680"
+    },
+    {
+        "userid": "7bb947a31476a215bb36e616e484fbe5",
+        "name": "6dc18bd0e3",
+        "balance": "           5647"
+    },
+    {
+        "userid": "d9c2c9d6955cc7ee70d548bb2ea600e6",
+        "name": "4436517412",
+        "balance": "          79200"
+    },
+    {
+        "userid": "5ac22ebcfafe1d2bb071b4dcd2f55833",
+        "name": "2dc717a9bb",
+        "balance": "          23729"
+    },
+    {
+        "userid": "a585f95d9ac77dbb7ca13cf02dd27cdd",
+        "name": "bba4212416",
+        "balance": "          16437"
+    },
+    {
+        "userid": "1783cf0b02e827880f3aaea5693cb124",
+        "name": "94c4ffddb4",
+        "balance": "          50379"
+    },
+    {
+        "userid": "fa041b0cd48b55ca3f27d3de22d59b6d",
+        "name": "db2c557208",
+        "balance": "          30684"
+    },
+    {
+        "userid": "82d3a1e8d6de30edd69b3ff88a17e102",
+        "name": "c5653d47ae",
+        "balance": "          15012"
+    },
+    {
+        "userid": "eab5155aa2b111a2f13db35f82fa16e2",
+        "name": "d765c3f3ca",
+        "balance": "          91413"
+    },
+    {
+        "userid": "993ca05c3d0066958d66ad586a327168",
+        "name": "8f8fea98d3",
+        "balance": "          93524"
+    },
+    {
+        "userid": "9e6462f88bf23dff35ff20e67ef9d037",
+        "name": "69f4148fda",
+        "balance": "          40419"
+    },
+    {
+        "userid": "685b23eab5d69e8800173b703ccc2bf1",
+        "name": "1fa34b2e0a",
+        "balance": "          72691"
+    },
+    {
+        "userid": "b948b775c5ee20a1f002d22bedd809b8",
+        "name": "6eaff5e8a7",
+        "balance": "          90473"
+    },
+    {
+        "userid": "f16a6208c83cfaa3bfbc5bc132f7eec0",
+        "name": "456a8abac1",
+        "balance": "          54387"
+    },
+    {
+        "userid": "bf7dd0da54ed5637faf5cb0a292a68e6",
+        "name": "749571e884",
+        "balance": "          81291"
+    },
+    {
+        "userid": "2de085bd7cf14c254e7940281618bc52",
+        "name": "467a5ae0ff",
+        "balance": "          17602"
+    },
+    {
+        "userid": "a696f42896996ce893c8830d222bce30",
+        "name": "dcbaf72363",
+        "balance": "          82140"
+    },
+    {
+        "userid": "fb6584782a03a2c93e19865c890ed056",
+        "name": "523e32e2ea",
+        "balance": "           6827"
+    },
+    {
+        "userid": "0313921471e957c10afe7d7677225d9c",
+        "name": "644b167250",
+        "balance": "          88348"
+    },
+    {
+        "userid": "3ab9732a97a0f18d390a71edeeb647c2",
+        "name": "334c145946",
+        "balance": "          75649"
+    },
+    {
+        "userid": "e542dc68f36f9261051ef05d47c47276",
+        "name": "1a4e5ba4b4",
+        "balance": "          94565"
+    },
+    {
+        "userid": "3106f55e67be24b45c137c73b38a26d2",
+        "name": "c57dc48895",
+        "balance": "          41388"
+    },
+    {
+        "userid": "a938b15b346d4a84abde80aa418ed90e",
+        "name": "733604535e",
+        "balance": "          62577"
+    },
+    {
+        "userid": "ae6d2cdd43c4da8429a101d10796a64d",
+        "name": "7f95448030",
+        "balance": "          29586"
+    },
+    {
+        "userid": "c7d50b466733354caaa70b2831087ec1",
+        "name": "f39a67b8d8",
+        "balance": "          94838"
+    },
+    {
+        "userid": "e9b99377b17bf15682ffef67054b82b0",
+        "name": "3c869e697c",
+        "balance": "          37287"
+    },
+    {
+        "userid": "a1ba45cf4a87880318133774461262bd",
+        "name": "49372bd27a",
+        "balance": "          70287"
+    },
+    {
+        "userid": "32f8a44472088ff6e6bcc8d5924a0b81",
+        "name": "0992bb9160",
+        "balance": "          44475"
+    },
+    {
+        "userid": "23ae0dd0bfa5ddad1cf835db558ef119",
+        "name": "c57d611e83",
+        "balance": "          51938"
+    },
+    {
+        "userid": "1a92b7c5adacdaa1de52893c416e1a69",
+        "name": "13cfeecae3",
+        "balance": "           2217"
+    },
+    {
+        "userid": "5b704833b6e634e5f85a51fb8065b672",
+        "name": "621808873a",
+        "balance": "          85034"
+    },
+    {
+        "userid": "158c4c0ac26f5e99492137d6d87d2e2b",
+        "name": "faf876c6d5",
+        "balance": "          34067"
+    },
+    {
+        "userid": "eb9fda32161abcc90df19b5c05674f01",
+        "name": "e4afe4086f",
+        "balance": "          71279"
+    },
+    {
+        "userid": "a2343ca8160f395973039afe10b42ac3",
+        "name": "e641c540f9",
+        "balance": "          61385"
+    },
+    {
+        "userid": "9ac75335974016e016148907cb5ea7ac",
+        "name": "05983ddf7d",
+        "balance": "          23754"
+    },
+    {
+        "userid": "29c20132136b50f99476f69d3888935c",
+        "name": "9d3d03b2e7",
+        "balance": "          81010"
+    },
+    {
+        "userid": "e38e9f083d968f579c202c5021478ce1",
+        "name": "33dc34b9ab",
+        "balance": "          59170"
+    },
+    {
+        "userid": "83011404249994e906eb0fe2207ae17d",
+        "name": "4411449aea",
+        "balance": "          21683"
+    },
+    {
+        "userid": "9e86a2a8a8a7f275773ed828408571b5",
+        "name": "7e559cc6ab",
+        "balance": "          61867"
+    },
+    {
+        "userid": "ec452e06ce2921d957ab12f93c460e08",
+        "name": "9db0912f0c",
+        "balance": "          11847"
+    },
+    {
+        "userid": "da59ac833db18a610d2c9f189f44cc9e",
+        "name": "e298ef3f3e",
+        "balance": "          75540"
+    },
+    {
+        "userid": "9fa7ff987569c1cdef3a03c7bdde6be1",
+        "name": "fcf590cc14",
+        "balance": "           3826"
+    },
+    {
+        "userid": "accb62c997415c04fcd46cfba0ef3bcf",
+        "name": "10a27adaa1",
+        "balance": "          70095"
+    },
+    {
+        "userid": "ce1b0d7bb46e4dedd0e493c6341e2950",
+        "name": "6b295c41f2",
+        "balance": "          49510"
+    },
+    {
+        "userid": "0bb8a038b37815eca31cc33182820bd9",
+        "name": "7573cdd97c",
+        "balance": "          57500"
+    },
+    {
+        "userid": "10c18b65a8e1cef6d9b1b03b41982998",
+        "name": "ebcd86733d",
+        "balance": "          76991"
+    },
+    {
+        "userid": "bf8027451310bd64db6a53fca083d017",
+        "name": "d74556db8a",
+        "balance": "          85942"
+    },
+    {
+        "userid": "834bc4056243597b02f716145fa5d7c7",
+        "name": "efa6c70d39",
+        "balance": "          42735"
+    },
+    {
+        "userid": "d1834e5c11840588bed0dc4ee0349101",
+        "name": "1572525219",
+        "balance": "          46536"
+    },
+    {
+        "userid": "63c129e36fc0fcf4e74064cb9b272341",
+        "name": "68fb8b1c7d",
+        "balance": "          24803"
+    },
+    {
+        "userid": "f1f5309440cb7cda629520bd33706d26",
+        "name": "497450f5df",
+        "balance": "          20258"
+    },
+    {
+        "userid": "d49f634298b9c895a231f0dde4b964f5",
+        "name": "ae57d97b46",
+        "balance": "          72202"
+    },
+    {
+        "userid": "c5283167d4669ad900c829268bccae11",
+        "name": "1b3ffd6154",
+        "balance": "          43285"
+    },
+    {
+        "userid": "ce3191433464b398696c302a0757cb3f",
+        "name": "e99ee66166",
+        "balance": "          40318"
+    },
+    {
+        "userid": "3d1ad2cb893be2a815a3184b1f88456a",
+        "name": "e992327dc1",
+        "balance": "          36785"
+    },
+    {
+        "userid": "ee4567a9782145a819d21f21e7feadc6",
+        "name": "2a60d1838f",
+        "balance": "          70166"
+    },
+    {
+        "userid": "126201390de7cb3e512ce748d48d48a9",
+        "name": "42b2df620a",
+        "balance": "          21231"
+    },
+    {
+        "userid": "1968c43f8d98982cd1df677e00c4a0c2",
+        "name": "ed5254f5cf",
+        "balance": "          36554"
+    },
+    {
+        "userid": "680b3b4b7523943480aecb87cbd1729e",
+        "name": "e66dbe8c01",
+        "balance": "          55017"
+    },
+    {
+        "userid": "3becd46d4e16794ea3849c967e0d6ff9",
+        "name": "99545d68ce",
+        "balance": "          41826"
+    },
+    {
+        "userid": "7573689db445c8d81f6eef6f9f488bff",
+        "name": "ca0926ecad",
+        "balance": "          76026"
+    },
+    {
+        "userid": "35394a655e8c676bf85b3d373c8cb55d",
+        "name": "3e2fe1e802",
+        "balance": "          72889"
+    },
+    {
+        "userid": "80d71f8496a86f2280eadb467bf7070a",
+        "name": "88a5ca18a8",
+        "balance": "          21048"
+    },
+    {
+        "userid": "c9e7369aaed4943fe7150f2a0a50aeb6",
+        "name": "f6a3c6eba9",
+        "balance": "          21306"
+    },
+    {
+        "userid": "f79ce3613209f01b93752ca5a8ddce2e",
+        "name": "0689ba32f8",
+        "balance": "          96081"
+    },
+    {
+        "userid": "e808c958ed2c87e46037016c7dc714d5",
+        "name": "612bfd1a00",
+        "balance": "          89077"
+    },
+    {
+        "userid": "b7a8ba994dae028173208dc8679961c7",
+        "name": "37fd57fd62",
+        "balance": "          52548"
+    },
+    {
+        "userid": "7174863d2884a890dc62e0640a395cf6",
+        "name": "f3aa3cb56f",
+        "balance": "          11839"
+    },
+    {
+        "userid": "5066a03bb7f978a52600deb8737d4333",
+        "name": "f36f83fbc2",
+        "balance": "          59219"
+    },
+    {
+        "userid": "c73a1d9766eb2b02bb4d009889bf1cdc",
+        "name": "24734f7cd7",
+        "balance": "           1393"
+    },
+    {
+        "userid": "22a39fb588752fcc5271be3403ed6876",
+        "name": "46aab1ca7a",
+        "balance": "          31747"
+    },
+    {
+        "userid": "3720060583751fa5dd7f9c17f8fe9a40",
+        "name": "d21c367c0b",
+        "balance": "          86517"
+    },
+    {
+        "userid": "27b980e622e144e5b219b97297bba122",
+        "name": "4ded783154",
+        "balance": "          73633"
+    }
+]
